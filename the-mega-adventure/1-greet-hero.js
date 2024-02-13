@@ -3,10 +3,15 @@
 // - Log values to the console (check our condition is running)
 
 function greetHero(heroName) {
-  // check the hero has a name
-  // check that the name is longer than 1 character
-  // check our condition is being met
-  // return a string to greet the hero
+  if (heroName && heroName.length > 1) {
+    console.log("condition met");
+    return `Greetings, ${heroName} 👋`;
+  }
+
+  // ✅ check the hero has a name
+  // ✅ check that the name is longer than 1 character
+  // ✅check our condition is being met
+  // ✅return a string to greet the hero
 }
 
 export default greetHero;

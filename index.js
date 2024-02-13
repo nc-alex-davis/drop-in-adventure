@@ -30,15 +30,17 @@ function ventureForthHero() {
   );
 
   console.log("\n\tchapter 1 – identify a hero\n");
-  // greetHero(ourHero);
+  const ourHero = "Gloria";
+  const greeting = greetHero(ourHero);
+  console.log(greeting);
   /*
-    -> create an ourHero string
-    -> do stuff in greetHero
-    -> log the greeting to the console
+    ✅ create an ourHero string
+    ✅ do stuff in greetHero
+    ✅ log the greeting to the console
   */
 
   console.log("\n\tchapter 2 – give hero sufficient storage\n");
-  // createHeroObject(ourHero);
+  createHeroObject(ourHero);
   /*
     -> do stuff in createHeroObject
     -> make a hero variable from the object
