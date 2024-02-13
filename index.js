@@ -18,7 +18,7 @@ const beastlyAttacker = {
   alias: "Keta",
   health: 20,
   attack: 55,
-  defence: 1.5,
+  defence: 15,
   strongAgainst: ["conker", "sword", "water cannon"],
   weakAgainst: ["fire", "Magnum ice-cream", "boomerang"],
 };
