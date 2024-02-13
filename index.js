@@ -40,24 +40,30 @@ function ventureForthHero() {
   */
 
   console.log("\n\tchapter 2 – give hero sufficient storage\n");
-  createHeroObject(ourHero);
+  const hero = createHeroObject(ourHero);
+  console.log(hero);
   /*
-    -> do stuff in createHeroObject
-    -> make a hero variable from the object
-    -> console log the object to check it's all cool
+    ✅ do stuff in createHeroObject
+    ✅ make a hero variable from the object
+    ✅ console log the object to check it's all cool
   */
 
   console.log("\n\tchapter 3 – equip hero so it's safe to go alone\n");
-  // equipHero(availableEquipment, hero);
+  const croneInventory = equipHero(availableEquipment, hero);
+  console.log(hero, "\n ^^ look at our hero now!");
+  console.log(
+    `\n\nThank you, crone! This sword'll make all the difference. Let me retake your stock for you: \n`
+  );
+  console.log(croneInventory);
   /*
-    -> do stuff in equipHero
-    -> console.log the hero object to check they've been equipped
-    -> console.log a little note of thanks to the wizened crone, and do a fresh stock take for them
+    ✅ do stuff in equipHero
+    ✅ console.log the hero object to check they've been equipped
+    ✅ console.log a little note of thanks to the wizened crone, and do a fresh stock take for them
   */
 
   console.log("\n\tchapter 4 – free the village\n");
   let isVillageSafe = false;
-  // isVillageSafe = freeTheVillage(beastlyAttacker, hero);
+  isVillageSafe = freeTheVillage(beastlyAttacker, hero);
 
   console.log("\n\tconclusion:");
   if (isVillageSafe) {
