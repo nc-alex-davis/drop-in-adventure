@@ -3,6 +3,7 @@
 // - Log values to the console (check our condition is running)
 
 function greetHero(heroName) {
+  // TODO: make it so that functions do the checking
   // check the hero has a name
   // check that the name is longer than 1 character
   // check our condition is being met
