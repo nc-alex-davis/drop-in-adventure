@@ -5,6 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "lessgooo": "node --experimental-modules index.js",
+    "view-folders": "lsd -I node_modules -I bits-n-bobs --tree --classic",
     "start": "node --experimental-modules index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

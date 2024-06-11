@@ -1,7 +1,10 @@
-import greetHero from "./the-mega-adventure/1-greet-hero.js";
-import createHeroObject from "./the-mega-adventure/2-create-hero-object.js";
-import equipHero from "./the-mega-adventure/3-equip-hero.js";
-import freeTheVillage from "./the-mega-adventure/4-free-the-village.js";
+import startChapter1 from "./the-mega-adventure/chapter-1/start-chapter-1.js";
+
+function goForthToAdventure() {
+  startChapter1();
+}
+
+goForthToAdventure();
 
 const availableEquipment = [
   "pin",
@@ -71,5 +74,3 @@ function ventureForthHero() {
     );
   }
 }
-
-ventureForthHero();
