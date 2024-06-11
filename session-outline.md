@@ -2,7 +2,7 @@
 
 ## Priority Content – things you've requested
 
-⭐️ nothing as yet
+- 🙅
 
 ## Indicative Content
 
@@ -10,12 +10,12 @@
 2. EC tips – exam practices
 3. Debugging tips
 4. Q & A
-5. technical stuff – focus on securing these before attempting the entry challenge:
+5. technical stuff – These are the core competencies to demonstrate in order to pass:
 
-- Store a value as a variable
-- Execute code conditionally ('if' something is true)
-- Access an item in an array if you know its index
-- Access a value of an object if you know its key
-- Iterate through an array or string
-- Log values to the console
-- Understanding errors
+- Using correct primitive values in code
+- Ability to declare, initialise, assign and reassign variables
+- Using iteration, usually in the form of a for…loop, to iterate over a string or array successfully
+- Ability to access elements in an array or characters in a string by their index
+- Accessing properties and values on an object using both dot and square bracket notation
+- Using conditional logic to assert against different conditions, usually in the form of if/else statements, ternaries, or switch statements
+- A basic understanding of using parameters and returning correct values within a function body
