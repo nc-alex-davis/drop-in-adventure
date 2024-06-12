@@ -13,7 +13,10 @@ async function greetHero() {
 }
 
 // -------------Edit this----------------
+// TODO: Hmm, something seems wrong with our input validation... 🤔
 // Valid name: is actually a word
+// Doesn't have numbers in, maybe 🤷
+// Should probably allow spaces
 function isValidName(nameInput) {
   return false;
 }
