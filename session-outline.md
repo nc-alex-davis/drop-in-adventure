@@ -8,7 +8,7 @@
 
 1. the parts of a function
 2. EC tips – exam practices
-3. Debugging tips
+3. debugging tips
 4. Q & A
 5. technical stuff – These are the core competencies to demonstrate in order to pass:
 
